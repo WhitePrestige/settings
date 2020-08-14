@@ -1,0 +1,20 @@
+<templateSet group="Vue-toba">
+  <template name="vbase" value="&lt;template&gt;&#10;&#9;&lt;div class=&quot;&quot;&gt;&#10;&#10;&#9;&lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;style scoped lang=&quot;scss&quot;&gt;&#10;&#10;&lt;/style&gt;&#10;&#10;&lt;script&gt;&#10;&#10;import { Component } from 'vue-property-decorator';&#10;import Vue from 'vue';&#10;&#10;@Component&#10;export default class MapSuggestionsPage extends Vue {&#10;&#10;  create() {&#10;    $END$&#10;  }&#10;&#10;};&#10;&#10;&lt;/script&gt;&#10;&#10;" description="Vue single file component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="HTML_COMMENT" value="&lt;!-- $NAME$ --&gt;&#10;$SELECTION$&#10;&lt;!-- $NAME$ --&gt;&#10;$END$" description="Surround with CDATA section" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="LOG" value="console.log($SELECTION$);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,5 @@
+IdeaVIM
+com.chrisrm.idea.MaterialThemeUI
+com.godwin.json.parser
+ru.adelf.idea.dotenv
+ua.in.dej.myEmmet
